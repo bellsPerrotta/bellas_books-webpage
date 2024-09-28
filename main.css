@@ -1,0 +1,51 @@
+h1 {
+	text-align: center;
+}
+*{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+.button {border-radius: 50%;
+background-color: rgba(142,142,142,1.00)}
+
+.table {
+	background-color:rgba(117,0,0,1.00);
+  text-align: left;
+  padding: 8px;
+	float: right;
+	border-radius: 12px;
+}
+.div1, .div2 {
+	float:left;
+	background-color:rgba(111,207,255,1.00);
+	margin: 10px;
+	border-radius: 12px;
+}
+
+.div2 {
+	border:dotted;
+	border-color: rgba(177,115,210,1.00);
+}
+
+ol {
+
+}
+
+ul {
+list-style-type: circle;
+}
+
+iframe {
+position: absolute; 
+bottom: 0;
+}
+
+body {
+	background-color: rgba(46,138,226,1.00);
+
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+.button {
+}
