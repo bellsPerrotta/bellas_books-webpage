@@ -1,51 +1,118 @@
 h1 {
 	text-align: center;
+	color: #F4E2CC;
 }
 *{
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-sizing: border-box;
 }
-.button {border-radius: 50%;
-background-color: rgba(142,142,142,1.00)}
+.button {
+	margin:0 auto;
+	border-radius: 50%;
+background-color:#5E8C65;
+color:#F4E2CC;
+}
+
+#ui-id-1,#ui-id-3,#ui-id-5,#ui-id-7,#ui-id-9 {
+  background-color: #5E8C65;
+  color:#8C463F;
+}
+
+#ui-id-2,#ui-id-4,#ui-id-6,#ui-id-8,#ui-id-10{
+	background-color: #F4E2CC;
+	color: #9D7B6F;
+}
+
+.active, .ui-accordion-:hover {
+  background-color: #A69B7D; 
+}
 
 .table {
-	background-color:rgba(117,0,0,1.00);
+  display: flex;
+border: 1px solid #F4E2CC;
+	background-color:#5E8C65;
   text-align: left;
   padding: 8px;
-	float: right;
 	border-radius: 12px;
-}
-.div1, .div2 {
-	float:left;
-	background-color:rgba(111,207,255,1.00);
-	margin: 10px;
-	border-radius: 12px;
+	color: #F4E2CC;
+	
 }
 
-.div2 {
-	border:dotted;
-	border-color: rgba(177,115,210,1.00);
+.flex-container2 {
+  display: flex;
+  height: 250px;
+width: 800px;
+  align-items:flex-end;
+	margin:0 auto;
 }
+
+#mystery{
+	background-color: #9D7B6F;
+}
+
+#horror{
+	background-color: #9D7B6F;
+}
+
+#other{
+	background-color: #9D7B6F;
+}
+
+
+
+
+
+
+
+.flex-container {
+	color: #8C463F;
+	background-color:#A69B7D;
+	border-radius: 12px;
+	border:dotted;
+	border-color: #5E8C65;
+	display: flex;
+  height: 200px;
+  align-items: center;
+	
+}
+
 
 ol {
+}
 
+.readingList{
+		color: #8C463F;
+	background-color:#A69B7D;
+	border-radius: 12px;
+	border:dotted;
+	border-color: #5E8C65;
+	flex-grow: 1;
+  height: 200px;
+  align-items: center;
+	margin: 0 0 0 20px;
+	padding: 0 20px 0 20px;
+}
+
+h3 {
+	background-color: #9D7B6F;
+	text-align: center;
+	color: #F4E2CC;
+	border-radius: 12px;
+		
 }
 
 ul {
 list-style-type: circle;
 }
 
-iframe {
-position: absolute; 
-bottom: 0;
-}
+
 
 body {
-	background-color: rgba(46,138,226,1.00);
+	background-color: #8C463F;
 
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
-
-
-.button {
+tr:nth-child(even) {
+	
 }
+

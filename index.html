@@ -3,69 +3,140 @@
 <head>
 <meta charset="UTF-8">
 <title>Bella's Books_webpage</title>
-</head>
 <link rel="stylesheet" href="main.css">
 <h1>My Book Collection &#128218;</h1>
-	<button id="myButton" class="float-left submit-button button" >My favorite bookstore!</button>
-
+<button id="myButton" class="float-left submit-button button" >My favorite bookstore!</button>
+<br>
 <script type="text/javascript">
     document.getElementById("myButton").onclick = function () {
         location.href = "https://www.barnesandnoble.com";
     };
-</script>
-<body>
-	<table class="table">
-	<tr>
-    <th>Genre</th>
-    <th>Total Amount</th>
-    <th>Amount Unread</th>
-  </tr>
-  <tr>
-    <td>Mystery</td>
-    <td>22</td>
-    <td>11</td>
-  </tr>
-  <tr>
-    <td>Dystopian</td>
-    <td>20</td>
-    <td>2</td>
-  </tr>
-<tr>
-<td>Horror</td>
-<td>1</td>
-<td>1</td>	
-</tr>		
-<tr>
-<td>Romance</td>	
-<td>2</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Other</td>
-<td>4</td>
-<td>4</td>
-</tr>		
-</table>
-	
-<div class="div1"><p>My top 5 favorites &#10024;</p>
-<ol>
-  <li>We Were Liars</li>
-  <li>Five Survive</li>
-  <li>Hunger Games</li>
-<li>The Last Word</li>
-	<li>Powerless</li></ol></div>
+</script><br>
 
-	<div class="div2">
-<p>Books that I'm reading next</p>	
-<ul>
-  <li>Messenger</li>
-  <li>S.</li>
-  <li>The Creeper</li>
-<li>Reckless</li>
-	<li>And Then There Were None</li>
-	</ul></div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery UI Accordion - Default functionality</title>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script> 
+<script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script> 
+<script>
+  $( function() {
+    $( "#accordion" ).accordion();
+    
+  } );
+  </script>
+</head>
+<body>
+<h3>My top 5 favorites &#10024;</h3>
+<div id="accordion">
+  <h3>We Were Liars</h3>
+  <div>
+    <p>A beautiful and distinguished family. <br>
+A private island.<br>
+A brilliant, damaged girl; a passionate, political boy.<br>
+A group of four friends—the Liars—whose friendship turns destructive.<br>
+A revolution. An accident. A secret.<br>
+Lies upon lies.<br>
+True love.<br>
+The truth.<br>
+
+Read it.<br>
+And if anyone asks you how it ends, just LIE.</p>
+  </div>
+  <h3>Five Survive</h3>
+  <div>
+    <p>Eight hours. Six friends. Five survive.<br>
+
+Red Kenny is on a road trip for spring break with five friends: Her best friend - the older brother - his perfect girlfriend - a secret crush - a classmate - and a killer. <br>
+
+When their RV breaks down in the middle of nowhere with no cell service, they soon realize this is no accident. They have been trapped by someone out there in the dark, someone who clearly wants one of them dead.<br>
+
+With eight hours until dawn, the six friends must escape, or figure out which of them is the target. But is there a liar among them? Buried secrets will be forced to light and tensions inside the RV will reach deadly levels. Not all of them will survive the night. . . . </p>
+  </div>
+  <h3>The Hunger Games</h3>
+  <div>
+    <p>Winning means fame and fortune. Losing means certain death. The Hunger Games have begun. . . . In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV. Sixteen-year-old Katniss Everdeen regards it as a death sentence when she steps forward to take her sister's place in the Games. But Katniss has been close to dead before-and survival, for her, is second nature. Without really meaning to, she becomes a contender. But if she is to win, she will have to start making choices that weigh survival against humanity and life against love.</p>
+  </div>
+  <h3>The Last Word</h3>
+  <div>
+    <p>Emma Carpenter lives in isolation with her golden retriever Laika, house-sitting an old beachfront home on the rainy Washington coast. Her only human contact is her enigmatic old neighbor, Deek, and (via text) the house’s owner, Jules.<br>
+
+One day, she reads a poorly written—but gruesome—horror novel by the author H. G. Kane, and posts a one-star review that drags her into an online argument with none other than the author himself. Soon after, disturbing incidents start to occur at night. To Emma, this can’t just be a coincidence. It was strange enough for this author to bicker with her online about a lousy review; could he be stalking her, too?<br>
+
+As Emma digs into Kane’s life and work, she learns he has published sixteen other novels, all similarly sadistic tales of stalking and murder. But who is he? How did he find her? And what else is he capable of?<br>
+
+Displaying his trademark command of rapid-fire pacing, unnerving atmosphere, and razor-sharp characterization, Taylor Adams once again delivers a diabolically disturbing—and deadly—game of cat and mouse.</p>
+  </div>
+	<h3>Powerless</h3>
+  <div>
+    <p>She is the very thing he’s spent his whole life hunting.<br>
+He is the very thing she’s spent her whole life pretending to be.<br>
+
+Only the extraordinary belong in the kingdom of Ilya—the exceptional, the empowered, the Elites. The powers these Elites have possessed for decades were graciously gifted to them by the Plague, though not all were fortunate enough to both survive the sickness and reap the reward. Those born Ordinary are just that—ordinary. And when the king decreed that all Ordinaries be banished to preserve his Elite society, lacking an ability suddenly became a crime—making Paedyn Gray a felon by fate and a thief by necessity.<br>
+
+Surviving in the slums as an Ordinary is no simple task, and Paedyn knows this better than most. Having been trained by her father to be keenly observant since she was a child, Paedyn poses as a Psychic in the crowded city, blending in with the Elites as best she can to stay alive and out of trouble…easier said than done.<br>
+
+When Paeydn unsuspectingly saves one of Ilya’s princes, she finds herself thrown into the Purging Trials. The brutal competition exists to showcase the Elites’ powers—the very thing Paedyn lacks. If the Trials and the opponents within them don’t kill her, the prince she’s fighting feelings for certainly will if he discovers what she is…completely Ordinary.</p>
+  </div>
 	
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/QCBMSSdtvTQ?si=RdD1qtJ8GylnjTay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-	
+</div>
+<br>
+<div class="flex-container2">
+  <div >
+    <table class="table">
+      <tr>
+        <th>Genre</th>
+        <br>
+        <th>Total Amount</th>
+        <br>
+        <th>Amount Unread</th>
+        <br>
+      </tr>
+      <br>
+      <tr id="mystery">
+        <td>Mystery</td>
+        <td>22</td>
+        <td>11</td>
+      </tr>
+      <br>
+      <tr>
+        <td>Dystopian</td>
+        <td>20</td>
+        <td>2</td>
+      </tr>
+      <br>
+      <tr id="horror">
+        <td>Horror</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <br>
+      <tr>
+        <td>Romance</td>
+        <td>2</td>
+        <td>1</td>
+      </tr>
+      <br>
+      <tr id="other">
+        <td>Other</td>
+        <td>4</td>
+        <td>4</td>
+      </tr>
+    </table>
+    <br>
+  </div>
+  <div class="readingList">
+    <p>Books that I'm reading next</p>
+    <ul>
+      <li>Messenger</li>
+      <li>S.</li>
+      <li>The Creeper</li>
+      <li>Reckless</li>
+      <li>And Then There Were None</li>
+    </ul>
+  </div>
+</div>
+
+<br>
 </body>
 </html>
