@@ -13,6 +13,11 @@ background-color:#5E8C65;
 color:#F4E2CC;
 }
 
+.flex-contain {
+	display: flex;
+  flex-direction: row;
+}
+
 #ui-id-1,#ui-id-3,#ui-id-5,#ui-id-7,#ui-id-9 {
   background-color: #5E8C65;
   color:#8C463F;
@@ -44,6 +49,7 @@ border: 1px solid #F4E2CC;
 width: 800px;
   align-items:flex-end;
 	margin:0 auto;
+	flex-direction: row;
 }
 
 #mystery{
