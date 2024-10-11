@@ -15,7 +15,7 @@ color:#F4E2CC;
 
 .flex-contain {
 	display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 #ui-id-1,#ui-id-3,#ui-id-5,#ui-id-7,#ui-id-9 {
